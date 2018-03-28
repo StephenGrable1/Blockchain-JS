@@ -7,6 +7,22 @@ stephenCoin.addNewBlock(new Block(1, '01/09/2018', 'Sent $3,000,000 to Paul'))
 stephenCoin.addNewBlock(new Block(2, '01/10/2018', 'Sent 1 apple to Shane'))
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //this is our entire blockchain
 console.log(stephenCoin)
 
@@ -14,12 +30,16 @@ console.log(stephenCoin)
 console.log('Is the blockchain valid? ', stephenCoin.isChainValid());
 
 //Wait.... I didn't want to send Paul 3 million bucks!!!!!
+
+//Lets mutate the blockchain and sent him a doughnut instead
+//muuuahahahhahahahahahhahahah
 stephenCoin.chain[1].data = 'Sent Paul 1 doughnut';
 
-//This is the block after the mutation
+//This is the block after our evil mutation
 console.log("After mutation: ", stephenCoin);
 
 //Now lets check if our block is valid
 console.log('Is the blockchain still valid after mutation? ', stephenCoin.isChainValid());
 
 
+//example inspired by Savjee at Savjee.be
