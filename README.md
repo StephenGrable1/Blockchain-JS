@@ -1,5 +1,11 @@
 <h1>Welcome to my blockchain!</h1>
 
+<h3>How to get started</h3>
+<ol>
+<li>Navigate to the folder on your computer you want to place thi project</li>
+<li>In your terminal run <code>git clone git@github.com:StephenGrable1/Blockchain-JS.git</code></li>
+</ol>
+
 <h3>Resources</h3>
 <ul>
 <li><a href="https://docs.google.com/presentation/d/1Yw3exwjrk1Z9J4ANQk2yg76qHnqzTSypHoQKWPyrEzY/edit?usp=sharing">Blockchain introduction slideshow</a></li>
