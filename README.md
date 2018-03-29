@@ -2,10 +2,10 @@
 
 <h3>How to get started</h3>
 <ol>
-<li>Navigate to the folder on your computer you want to place thi project</li>
+<li>Navigate to the folder on your computer you want to place this project</li>
 <li>In your terminal run <code>git clone git@github.com:StephenGrable1/Blockchain-JS.git</code></li>
-<li>Then, in your terminal, run <code>npm install</code> and install npm modules needed</li>
-<li>You can navigate into the project folder in your terminal and run <code>node Stephen-coin.js</code> to see some of the console.log's displaying the blockchain in that file </li>
+<li>Then, in that new project file you just created, run <code>npm install</code> in the terminal. This will install all the npm modules needed.</li>
+<li>You can navigate into the project folder in your terminal and run <code>node Stephen-coin.js</code> to see some of the console.log's displaying the blockchain in that file.</li>
 <li>Feel free to edit Stephen-coin.js and add your own test blocks and have fun!</li>
 </ol>
 
